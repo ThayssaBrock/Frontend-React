@@ -1,7 +1,11 @@
+import Header from "@/components/layout/Header"
+
 const Home = () => {
-  //jsx
-  return(
-    <h1>Hello World React</h1>
+  return (
+    <>
+    <Header />
+    <h1>Hello World React!</h1>
+    </>
   )
 }
 

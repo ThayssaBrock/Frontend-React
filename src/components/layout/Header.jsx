@@ -1,5 +1,3 @@
-//import é opcional
-import React from 'react'
 import './Header.css'
 
 const Header = () => {
@@ -7,9 +5,11 @@ const Header = () => {
     <header id="header">
         <h1>Logo</h1>
         <nav>
-            <ul>Home</ul>
-            <ul>Quem Somos</ul>
-            <ul>Contato</ul>
+            <ul>
+                <li>Home</li>
+                <li>Quem Somos</li>
+                <li>Contato</li>
+            </ul>
         </nav>
     </header>
   )

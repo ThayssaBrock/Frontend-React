@@ -1,7 +1,12 @@
+import Header from "@/components/layout/Header"
+
 const QuemSomos = () => {
-  //jsx
+  
   return(
+    <>
+    <Header />
     <h1>Quem somos. Saiba mais...</h1>
+    </>
   )
 }
 

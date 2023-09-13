@@ -1,0 +1,19 @@
+.primeiro{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(4, 75, 8);
+    border: none;
+    border-radius: 15px;
+    font-size: 25px;
+    color: rgb(253, 253, 253);
+}
+.segundo{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(129, 9, 9);
+    border: none;
+    border-radius: 18px;
+    font-size: 25px;
+    color: rgb(253, 253, 253);
+    margin-left: 10px;
+}

@@ -6,9 +6,10 @@ const Header = () => {
         <h1>Logo</h1>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Quem Somos</li>
-                <li>Contato</li>
+                <li><a href="http://localhost:3000/">Home</a></li>
+                <li><a href="http://localhost:3000/quem-somos">Quem Somos</a></li>
+                <li><a href="http://localhost:3000/contatos">Contato</a></li>
+                <li><a href="http://localhost:3000/membros">Membros</a></li>
             </ul>
         </nav>
     </header>

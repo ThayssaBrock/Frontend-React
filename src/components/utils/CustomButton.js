@@ -1,11 +1,9 @@
-import { userAgent } from "next/server"
+import './CustomButton.css'
 
-const CustomButton = ({user}) => {
+const CustomButton = ({variant,titulo}) => {
   return (
     <>
-    <button>{user?.name}</button>
-    <p>teste: {user?.photo}</p>
-    <p>teste: {user?.email}</p>
+    <button className={variant}>{titulo}</button>
     </>
   )
 }

@@ -10,10 +10,12 @@ const contatos = () => {
         <Header />
         <h1>Contato</h1>
         <h2>Nosso WhatsApp</h2>
-        <CustomButton titulo="Login"/>
-        <CustomButton user={user}/>
+        <CustomButton variant="primeiro" titulo="ENTRAR"/>
+        <CustomButton variant="segundo" titulo="SAIR"/>
       </>
     )
   }
   
   export default contatos
+
+  //variant, 

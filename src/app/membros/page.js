@@ -1,6 +1,6 @@
 import Header from "@/components/layout/Header"
-import'./Membros.css'
-    
+import CardUser from "@/components/cards/CardUser"
+
 // a função tem que ser aqui
 const getMembers = async () => {
     const response = await fetch('http://localhost:3333/user/list', {cache: 'no-store'})
@@ -18,13 +18,7 @@ return(
         {
             users.map((user) =>{
                 return (
-                    <div key={user.id} className="card-user">
-                        <img src={user.photo} width="70px" height="70px" alt={user.name}></img>
-                    <div>
-                        <h4>{user.name}</h4>
-                        <p>{user.email}</p>
-                    </div>
-                    </div>
+                    <CardUser key={user.id} user={user}/>
                 )
             })
         }

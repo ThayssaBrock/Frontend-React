@@ -1,0 +1,20 @@
+.card-user{
+    display: flex;
+    border: 1px solid #ccc;
+    width: 300px;
+    align-items: center;
+    border-radius: 15px;
+    gap: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.card-user img{
+    border-radius: 50%;
+}
+
+.card-user div h4{
+    margin: 0;
+}
+.card-user div p{
+    margin: 0;
+}

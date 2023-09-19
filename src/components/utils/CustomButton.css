@@ -5,6 +5,7 @@
     border: none;
     border-radius: 15px;
     font-size: 25px;
+    font-family: cursive;
     color: rgb(253, 253, 253);
 }
 .segundo{
@@ -16,4 +17,5 @@
     font-size: 25px;
     color: rgb(253, 253, 253);
     margin-left: 10px;
+    font-family: cursive;
 }

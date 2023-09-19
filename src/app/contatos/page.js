@@ -11,6 +11,7 @@ const contatos = () => {
         <h1>Contato</h1>
         <h2>Nosso WhatsApp</h2>
         <CustomButton variant="primeiro" titulo="ENTRAR"/>
+        <CustomButton variant="segundo" titulo="Reiniciar"/>
         <CustomButton variant="segundo" titulo="SAIR"/>
       </>
     )

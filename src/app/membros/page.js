@@ -10,8 +10,7 @@ const Membros = async () => {
     const users = await getMembers()
 
 return(
-<>
-
+    <>
         <Header />
         <h1>Membros</h1>
         <h2>Lista de Emails: </h2>
@@ -22,7 +21,7 @@ return(
                 )
             })
         }
-      </>
+    </>
     )
   }
   

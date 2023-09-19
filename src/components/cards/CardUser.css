@@ -1,3 +1,4 @@
+
 .card-user{
     display: flex;
     border: 1px solid #ccc;
@@ -17,4 +18,15 @@
 }
 .card-user div p{
     margin: 0;
+}
+
+.card-user div span{
+    display: inline-block;
+    margin: 15px 10px 0 0;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.card-user div span.delete{
+    color: red;
 }

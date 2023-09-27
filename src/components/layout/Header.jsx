@@ -1,15 +1,17 @@
 import './Header.css'
+import Link from 'next/link'
+
 
 const Header = () => {
   return (
     <header id="header">
-        <h1>Logo</h1>
+        <h1 style={style.titulo}>Logo</h1>
         <nav>
             <ul>
-                <li><a href="http://localhost:3000/">Home</a></li>
-                <li><a href="http://localhost:3000/quem-somos">Quem Somos</a></li>
-                <li><a href="http://localhost:3000/contatos">Contato</a></li>
-                <li><a href="http://localhost:3000/membros">Membros</a></li>
+                <li><Link style={style.linkMenu} href={'/'}>Home</Link></li>
+                <li><Link style={style.linkMenu} href={'/quem-somos'}>Quem Somos</Link></li>
+                <li><Link style={style.linkMenu} href={'/contatos'}>Contato</Link></li>
+                <li><Link style={style.linkMenu} href={'/membros'}>Membros</Link></li>
             </ul>
         </nav>
     </header>
@@ -17,3 +19,14 @@ const Header = () => {
 }
 
 export default Header
+
+const style = {
+  linkMenu: {
+    textDecoration: 'none',
+    color: '#FFF',
+    fontSize: '18px'
+  }, 
+  titulo: {
+    fontSize: '40px'
+  }
+}
